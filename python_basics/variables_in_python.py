@@ -75,3 +75,41 @@ print(a/b)   # 3.5
 print(a//b)  # 3
 print(a % b)   # 1
 
+'''
+2. relational operators :- 
+    <    less than 
+    >    greater than
+    <=   less than or equal to
+    >=   greater than or equal to 
+    ==   equal to equal to 
+    =    assignment operator
+    !=   not equal to
+    <>   not equal to 
+'''
+
+a = 10
+b = 2
+c = 10
+print(a < b)
+print(a > b)
+print(a == b)
+print(a != b)
+print(a == c)
+
+"""
+incremental and decremental operator
++=  incremental operator
+-=  decremental operator
+"""
+a = 2
+a += 1
+print(a)
+
+a -= 1
+print(a)
+
+a *= 2
+print(a)
+
+a //= 3
+print(a)
